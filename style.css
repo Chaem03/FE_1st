@@ -22,12 +22,10 @@ body{
 
 .item1{
     display:flex;
-    flex-grow: 0.1;
+    flex-grow: 1;
     align-items: center;
-    margin:3px;
-
-
 }
+
 .item1 div{
    justify-content:flex-start;
 }
@@ -41,8 +39,6 @@ body{
 
     margin-left: auto;
     margin-right:20px;
-
-
 }
 
 #logo{
@@ -55,15 +51,14 @@ body{
 .item2{
     display:flex;
     flex-grow:3;
-    align-items: flex-start;
-    margin:0px;
+    background-color: blacks;
 }
 
 .item3{
     display:flex;
-    flex-grow: 2;
-    align-items: center;
+    flex-grow: 1;
     margin-top:8px;
+    align-items: center;
 
 }
 .item3 i{
